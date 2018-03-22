@@ -15,15 +15,12 @@ a {
 }
 
 /*header*/
-.profilePic {
+#profile-pic {
   border-radius: 50%;
+  position: absolute;
 }
 
 /*article*/
-.mainPic {
-  border-radius: 18px;
-}
-
 .work {
   height: 100%;
 }
@@ -47,7 +44,11 @@ footer {
 }
 
 @media screen and (max-width: 767px) {
-  .profilePic {
-    display: none;
+  .heading {
+    flex-direction: row;
+  }
+
+  #profile-pic {
+    width: 30%;
   }
 }
