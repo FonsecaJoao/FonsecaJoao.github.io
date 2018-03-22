@@ -1,0 +1,53 @@
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 400;
+  color: #353839;
+}
+
+hr.style {
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #000 inset;
+}
+
+a {
+  color: #868888;
+}
+
+/*header*/
+.profilePic {
+  border-radius: 50%;
+}
+
+/*article*/
+.mainPic {
+  border-radius: 18px;
+}
+
+.work {
+  height: 100%;
+}
+
+.project {
+  margin-top: 1%;
+}
+
+.tag {
+  margin-top: 1%;
+}
+
+/*footer*/
+footer {
+  color: #868888;
+  height: 150px;
+}
+
+.fa {
+  padding: 1%;
+}
+
+@media screen and (max-width: 767px) {
+  .profilePic {
+    display: none;
+  }
+}
