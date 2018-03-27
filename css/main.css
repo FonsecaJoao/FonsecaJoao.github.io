@@ -17,6 +17,8 @@ a {
 /*header*/
 #profile-pic {
   border-radius: 50%;
+  margin-top: 2%;
+  margin-left: 2%;
 }
 
 /*article*/
@@ -35,7 +37,6 @@ a {
 /*footer*/
 footer {
   color: #868888;
-  height: 150px;
 }
 
 .fa {
@@ -45,5 +46,17 @@ footer {
 @media screen and (max-width: 767px) {
   .col-xs-12 {
     width: 50%;
+  }
+}
+
+@media screen and (max-width: 515px) {
+  #profile-pic {
+    margin-top: 10%;
+  }
+}
+
+@media screen and (max-width: 411px) {
+  #profile-pic {
+    margin-top: 25%;
   }
 }
