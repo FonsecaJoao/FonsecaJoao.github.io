@@ -14,6 +14,14 @@ a {
   color: #868888;
 }
 
+a:hover {
+  color: black;
+}
+
+a:link:hover {
+  text-decoration: none;
+}
+
 /*header*/
 #profile-pic {
   border-radius: 50%;
@@ -34,6 +42,10 @@ a {
   margin-top: 1%;
 }
 
+.marg-spacing {
+  margin-bottom: 1%;
+}
+
 /*footer*/
 footer {
   color: #868888;
@@ -43,13 +55,35 @@ footer {
   padding: 1%;
 }
 
+.spacing {
+  padding-left: 1%;
+}
+
+@media screen and (min-width: 992px) {
+  .links {
+    text-align: right;
+  }
+  #footer-text {
+    float: left;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .links {
+    text-align: center;
+  }
+  #footer-text {
+    text-align: center;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .col-xs-12 {
     width: 50%;
   }
 }
 
-@media screen and (max-width: 515px) {
+@media screen and (min-width: 412px) and (max-width: 515px) {
   #profile-pic {
     margin-top: 10%;
   }
